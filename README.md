@@ -1,6 +1,6 @@
 # 🎨 Real-Time Color Detection using OpenCV
 
-This Python project uses **OpenCV** and **NumPy** to detect and track multiple colors (Red, Green, Yellow) in real-time using a webcam feed.  
+This Python project uses **OpenCV** and **NumPy** to detect and track multiple colors (Red, Green, Yellow) in real time from a webcam feed.  
 It identifies objects based on their color ranges in the HSV color space and draws bounding boxes with labels around the detected regions.
 
 ---
