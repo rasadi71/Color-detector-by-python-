@@ -34,6 +34,7 @@ Make sure you have the following installed:
 
 ```bash
 pip install opencv-python numpy
+---
 ▶️ Usage
 
 Save the code as color_tracker.py
@@ -46,11 +47,12 @@ python color_tracker.py
 
 
 Press q to exit.
+---
 
-💡 Tip: If your webcam doesn’t open, change the camera index in the code:
+## 💡 Tip: If your webcam doesn’t open, change the camera index in the code:
 
 cap = cv2.VideoCapture(0)
-
+---
 ## 🧰 Code Explanation
 Function	Description
 cv2.VideoCapture()	Accesses the webcam feed
@@ -60,6 +62,7 @@ cv2.findContours()	Detects contours (object boundaries)
 cv2.rectangle()	Draws bounding boxes
 cv2.putText()	Displays text labels
 cv2.imshow()	Shows live video window
+---
 ## 📸 Example Output
 
 🟥 Red object → Red rectangle
@@ -67,12 +70,14 @@ cv2.imshow()	Shows live video window
 🟨 Yellow object → Yellow rectangle
 
 Objects smaller than a threshold area are ignored to reduce noise.
+---
 
-🧪 Future Improvements
+## 🧪 Future Improvements
 
 🚀 Add more colors (blue, orange, etc.)
 🎯 Improve detection using morphology filters
 🤖 Integrate with robotics for color-based control
+---
 
 ## 🧑‍💻 Author
 
